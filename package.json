@@ -17,6 +17,7 @@
     "next": "^9.5.3",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.4",
+    "@next/env": "^12.0.7,
     "prettier": "^2.1.2",
     "rc-drawer": "^4.1.0",
     "react": "^16.13.0",
