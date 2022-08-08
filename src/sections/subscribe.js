@@ -2,7 +2,7 @@
 import { useRef, useState } from 'react';
 import fetch from 'isomorphic-unfetch';
 import {Grid, jsx } from 'theme-ui';
-import { Container, Flex, Box, Button, Input, Text, Heading } from 'theme-ui';
+import { Container, Flex, Box, Button, Input, Text, Heading, Link } from 'theme-ui';
 import { FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 
@@ -98,7 +98,7 @@ export default function Subscribe() {
             <Text as="p" sx={styles.description}>
               LinkedinIn
               
-              instagram
+              Instagram
             </Text>
 
           
