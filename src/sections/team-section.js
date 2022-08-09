@@ -61,7 +61,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Member3,
+    imgSrc: Member4,
     altText: 'Ivy Yuan',
     title: 'Ivy Yuan',
     designation: 'Co-Founder & Vice President',
@@ -82,7 +82,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Member4,
+    imgSrc: Member3,
     altText: 'Annie An',
     title: 'Annie An',
     designation: 'Co-Founder & Vice President',
