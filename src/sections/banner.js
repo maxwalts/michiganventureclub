@@ -22,6 +22,9 @@ export default function Banner() {
 
           </Text>
         </Box>
+       <Box sx={styles.banner.imageBox}>
+         <Button variant="primary">Explore</Button>
+       </Box>
    
       </Container>
     </section>
