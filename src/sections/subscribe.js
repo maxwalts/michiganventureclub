@@ -4,7 +4,7 @@ import fetch from 'isomorphic-unfetch';
 import {Grid, jsx } from 'theme-ui';
 import { Container, Flex, Box, Button, Input, Text, Heading, Link } from 'theme-ui';
 import { FaLinkedinIn, FaInstagram } from 'react-icons/fa';
-
+import Link from 'next/link'
 
 export default function Subscribe() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
@@ -95,13 +95,20 @@ export default function Subscribe() {
               Keep up with us!
             </Heading>
            
-            <Text as="p" sx={styles.description}>
-              LinkedinIn
+         /*<Text as="p" sx={styles.description}>
+              Linkedin
               
               Instagram
-            </Text>
+            </Text> */
 
+          <Link href="https://www.linkedin.com/company/michigan-venture-club/about/">
+          <a>Linkedin</a>
+          </Link>
           
+          <Link href="https://www.instagram.com/michigan_venture_club/">
+          <a>Instagram</a>
+          </Link>
+
           </Box>
         </Box>
       </Container>
