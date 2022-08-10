@@ -22,7 +22,7 @@ import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 
 const data = {
-  subTitle: 'Our Mission',
+  /*subTitle: 'Our Mission',*/
   title: 'Our Mission',
   features: [
     {
