@@ -94,19 +94,18 @@ export default function Subscribe() {
               Keep up with us!
             </Heading>
            
-         /*<Text as="p" sx={styles.description}>
-              Linkedin
-              
-              Instagram
-            </Text> */
+         <Text as="p" sx={styles.description}>
 
-          <Link href="https://www.linkedin.com/company/michigan-venture-club/about/">
+         
+
+          <Link as="linkedin" href="https://www.linkedin.com/company/michigan-venture-club/about/" >
           <a>Linkedin</a>
           </Link>
-          
-          <Link href="https://www.instagram.com/michigan_venture_club/">
+          {" "}
+          <Link as="ins" href="https://www.instagram.com/michigan_venture_club/">
           <a>Instagram</a>
           </Link>
+         </Text> 
 
           </Box>
         </Box>
