@@ -69,7 +69,7 @@ const styles = {
     contentBox: {
       width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
       mx: 'auto',
-      textAlign: 'left',
+      textAlign: 'center',
       mb: ['40px', null, null, null, null, 7],
     },
     imageBox: {
