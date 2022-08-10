@@ -4,7 +4,6 @@ import fetch from 'isomorphic-unfetch';
 import {Grid, jsx } from 'theme-ui';
 import { Container, Flex, Box, Button, Input, Text, Heading, Link } from 'theme-ui';
 import { FaLinkedinIn, FaInstagram } from 'react-icons/fa';
-import Link from 'next/link'
 
 export default function Subscribe() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
