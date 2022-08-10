@@ -87,7 +87,7 @@ export default function Subscribe() {
     ]
   };
   return (
-    <section>
+    <section id="subscribe" >
       <Container>
         <Box sx={styles.contentBox}>
           <Box sx={styles.contentBoxInner}>
