@@ -14,7 +14,10 @@ export default function Banner() {
             MICHIGAN VENTURE CLUB
           </Heading>
           <Text as="p" variant="heroSecondary">
-            To provide UofM students with business practice, internship opportunities, and well-round support for personal growth in venture capital industry and to connect the campus and venture capital industry.
+          Are you passionate about startups and venture capital? Do you want to learn more about what it takes to be a successful entrepreneur? If so, Michigan Venture Club is the perfect place for you!
+          We are a student club at the University of Michigan that aims to connect students with professionals at Venture Capital companies. We offer industry research, deal sourcing experience as well as an incubator for entrepreneurship, where students can get started on their own startups. We also host events and workshops on topics related to venture capital and entrepreneurship.
+          So whether you're looking to learn more about the venture capital industry or you're ready to start your own company, Michigan Venture Club is the perfect place for you!
+
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
