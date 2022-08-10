@@ -21,7 +21,7 @@ const data = [
     altText: 'Alumni Resources',
     title: 'Alumni Resources',
     text:
-      'We have close ties with many UofM alumni organizations, including Beijing Alumni Association, Shanghai Alumni Association, etc. We hope to connect the campus and the industry to help the development of the Umich alum network.',
+      'In Michigan Venture Club, our members can use our built Alumni Resources to connect with other alumni, learn about job opportunities, and get advice on starting their own businesses.',
   },
   {
     id: 3,
