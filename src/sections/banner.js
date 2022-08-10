@@ -21,9 +21,7 @@ export default function Banner() {
               So whether you're looking to learn more about the venture capital industry or you're ready to start your own company, Michigan Venture Club is the perfect place for you!
 
           </Text>
-         /* <Button variant="primary">Explore</Button>*/
         </Box>
-
    
       </Container>
     </section>
