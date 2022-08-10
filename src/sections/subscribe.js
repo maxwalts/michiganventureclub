@@ -99,11 +99,11 @@ export default function Subscribe() {
          
 
           <Link as="linkedin" href="https://www.linkedin.com/company/michigan-venture-club/about/" >
-          <a>Linkedin</a>
+            Linkedin
           </Link>
-          {" "}
+          {"     "}
           <Link as="ins" href="https://www.instagram.com/michigan_venture_club/">
-          <a>Instagram</a>
+            Instagram
           </Link>
          </Text> 
 
