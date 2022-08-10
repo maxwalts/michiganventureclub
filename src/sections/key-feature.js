@@ -23,7 +23,7 @@ const data = [
     altText: 'VC Research and Investment Team',
     title: 'VC Research and Investment Team',
     text:
-      'Fill in',
+      'Michigan Venture Club is a venture capital club that focuses on early-stage and fast-growing investment chances. We focus on industries such as consumer, technology, health care which can drive long-term value and economic growth. We work closely with key PE/VC institutions, excellent investors, amazing entrepreneurs and active incubators. We have 100+ team members now and aim to grow bigger and faster this year.',
   },
   {
     id: 3,
