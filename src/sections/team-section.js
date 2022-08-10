@@ -143,6 +143,7 @@ const data = [
       },
     ],
   },
+  
   {
     id: 7,
     imgSrc: Member7,
@@ -164,7 +165,28 @@ const data = [
       },
     ],
   },
- /* {
+ {
+    id: 8,
+    imgSrc: Member8,
+    altText: 'Max Walts',
+    title: 'Max Walts',
+    designation: 'Vice President of Technology',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'mail',
+        path: 'https://mwalts.com/',
+        icon: <FaMailBulk />,
+      },
+      {
+        id: 2,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/max-walts/',
+        icon: <FaLinkedinIn />,
+      },
+    ],
+  },
+   /*{
     id: 8,
     imgSrc: Member8,
     altText: 'Sky Zhang',
@@ -185,7 +207,6 @@ const data = [
       },
     ],
   },*/
-
 ];
 
 export default function TeamSection() {
