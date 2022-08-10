@@ -82,7 +82,7 @@ const styles = {
       null,
       'repeat(2,1fr)',
       null,
-      'repeat(4,1fr)',
+      'repeat(3,1fr)',
     ],
   },
   card: {
