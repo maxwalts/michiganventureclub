@@ -28,7 +28,6 @@ export default function IndexPage() {
           <Feature />
           <WorkFlow />
           <TeamSection />
-          <TestimonialCard />
           <Subscribe />
         </Layout>
       </StickyProvider>
