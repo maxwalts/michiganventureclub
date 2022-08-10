@@ -15,13 +15,13 @@ const data = [
     altText: '1st international venture club at UofM',
     title: '1st international venture club at UofM',
     text:
-      'Fill in',
+      'As the first international venture which aims to achieve diversity, equality and inclusiveness, we welcome students from any major, grade, country, race to join us. We are trying to keep our club a wonderful place to join for anyone who is interested in venture capital and entrepreneurship.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'VC Investment and Research Team',
-    title: 'VC Investment and Research Team',
+    altText: 'VC Research and Investment Team',
+    title: 'VC Research and Investment Team',
     text:
       'Fill in',
   },
@@ -31,7 +31,7 @@ const data = [
     altText: 'Entrepreneurship Projects Incubation',
     title: 'Entrepreneurship Projects Incubation',
     text:
-      'Fill in',
+      'Michigan Venture Club helps students connect with investors and raise money for their projects. We work with startups in all stages of development, from ideation to launch. We provide resources, advice, and mentorship to help them grow and succeed.',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Network Across U.S. and China',
     title: 'Network Across U.S. and China',
     text:
-      'Fill in.',
+      'Michigan Venture Club is a network of venture capitalists, entrepreneurs, and business professionals who are committed to investing in and supporting early-stage companies in the United States and China. We provide our members with access to a wide range of resources, including a network of experienced investors, a database of potential investors, and a platform for sharing deals and best practices.',
   },
 ];
 
