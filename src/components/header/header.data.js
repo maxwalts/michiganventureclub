@@ -16,7 +16,7 @@ export default [
     label: 'Our Team',
   },
   {
-    path: 'testimonial',
-    label: 'About us',
+    path: 'subscribe',
+    label: 'Contact',
   }
 ];
