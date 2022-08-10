@@ -95,9 +95,9 @@ export default function Subscribe() {
             </Heading>
            
          <Text as="p" sx={styles.description}>
-          <Link href="https://www.linkedin.com/company/michigan-venture-club/about/" >Linkedin</Link>
+          <Link href="https://www.linkedin.com/company/michigan-venture-club/about/" sx={styles.description}>Linkedin</Link>
           {`     `}
-          <Link href="https://www.instagram.com/michigan_venture_club/">Instagram</Link>
+          <Link href="https://www.instagram.com/michigan_venture_club/" sx={styles.description}>Instagram</Link>
          </Text> 
 
           </Box>
