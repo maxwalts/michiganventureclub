@@ -47,13 +47,13 @@ export default function ServiceSection() {
         <Box sx={styles.contentBox}>
           <TextFeature subTitle={data.subTitle} title={data.title} />
 
-            {data.features.map((item) => (
+          {data.features.map((item) => (
 
-                <Box sx={styles.wrapper}>
-                  <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
-                </Box>
-            ))}
+            <Box sx={styles.wrapper} key={item.id}>
+              <Heading sx={styles.wrapper.title}>{item.title}</Heading>
+              <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+            </Box>
+          ))}
         </Box>
         <Box sx={styles.thumbnail}>
           <Image src={FeatureThumb} alt="Thumbnail" />

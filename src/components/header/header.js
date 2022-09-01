@@ -3,7 +3,7 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/mvclogo.jpg';
+import LogoDark from 'assets/logo1.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -31,13 +31,18 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Get Started"
+          <a
+            href="https://forms.gle/UBzLkDDAKjCfstWx8"
           >
-            Apply
-          </Button>
+            <Button
+
+              className="donate__btn"
+              variant="secondary"
+              aria-label="Apply"
+            >
+              Apply
+            </Button>
+          </a>
 
           <MobileDrawer />
         </Container>
