@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
-import { FaFacebookF, FaTwitter, FaMailBulk, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaMailBulk, FaLinkedinIn } from 'react-icons/fa';
 
 import Member1 from 'assets/team/1.jpg';
 import Member2 from 'assets/team/2.png';
