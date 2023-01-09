@@ -10,22 +10,22 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
+          <Heading as="h1" variant="heroPrimary" sx={styles.banner.centered}>
             MICHIGAN VENTURE CLUB
           </Heading>
           <Text as="p" variant="heroSecondary">
             Are you passionate about startups and venture capital? Do you want to learn more about what it takes to be a successful entrepreneur? If so, Michigan Venture Club is the perfect place for you!<br />
             <br />
-              We are a student club at the University of Michigan that aims to connect students with professionals at Venture Capital companies. We offer industry research, deal sourcing experience as well as an incubator for entrepreneurship, where students can get started on their own startups. We also host events and workshops on topics related to venture capital and entrepreneurship.<br />
+            We are a student club at the University of Michigan that aims to connect students with professionals at Venture Capital companies. We offer industry research, deal sourcing experience as well as an incubator for entrepreneurship, where students can get started on their own startups. We also host events and workshops on topics related to venture capital and entrepreneurship.<br />
             <br />
-              So whether you're looking to learn more about the venture capital industry or you're ready to start your own company, Michigan Venture Club is the perfect place for you!
+            So whether you're looking to learn more about the venture capital industry or you're ready to start your own company, Michigan Venture Club is the perfect place for you!
 
           </Text>
         </Box>
-       <Box sx={styles.banner.imageBox}>
-         <Button variant="primary">Explore</Button>
-       </Box>
-   
+        <Box sx={styles.banner.imageBox}>
+          <Button variant="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfD4tjiJICl1WbeuhIuy5ATy2Y3EAR-UDyjdAkHqdwT3UuBqg/viewform">Apply before Jan 13th 2023</Button>
+        </Box>
+
       </Container>
     </section>
   );
@@ -45,7 +45,7 @@ const styles = {
       height: '100%',
       width: '100%',
       zIndex: -1,
-    /*  backgroundImage: `url(${ShapeLeft})`,*/
+      /*  backgroundImage: `url(${ShapeLeft})`,*/
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom left',
       backgroundSize: '36%',
@@ -58,7 +58,7 @@ const styles = {
       height: '100%',
       width: '100%',
       zIndex: -1,
-    /*  backgroundImage: `url(${ShapeRight})`,*/
+      /*  backgroundImage: `url(${ShapeRight})`,*/
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom right',
       backgroundSize: '32%',
@@ -67,9 +67,17 @@ const styles = {
       minHeight: 'inherit',
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'center',
+      justifyContent: 'left',
+      alignItems: 'left',
     },
     contentBox: {
+      // width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
+      // width: ['80%'],
+      mx: 'auto',
+      textAlign: 'left',
+      mb: ['40px', null, null, null, null, 7],
+    },
+    centered: {
       width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
       mx: 'auto',
       textAlign: 'left',

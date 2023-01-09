@@ -17,6 +17,7 @@ export default function Header({ className }) {
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
+              // <a href={path}>
               <Link
                 activeClass="active"
                 to={path}
@@ -28,11 +29,13 @@ export default function Header({ className }) {
               >
                 {label}
               </Link>
+              // </a>
+
             ))}
           </Flex>
 
           <a
-            href="https://forms.gle/UBzLkDDAKjCfstWx8"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfD4tjiJICl1WbeuhIuy5ATy2Y3EAR-UDyjdAkHqdwT3UuBqg/viewform"
           >
             <Button
 

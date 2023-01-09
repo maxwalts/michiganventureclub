@@ -4,12 +4,12 @@ export default [
     label: 'Home',
   },
   {
-    path: 'testimonial',
+    path: 'feature',
     label: 'About us',
   },
   {
-    path: '#',
-    label: 'News',
+    path: 'news',
+    label: 'Past Events',
   },
   {
     path: 'team',

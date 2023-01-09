@@ -214,7 +214,6 @@ export default function TeamSection() {
     <section id="team" sx={{ variant: 'section.team-section' }}>
       <Container>
         <SectionHeader
-          /*  slogan="our team"*/
           title="Our Team"
         />
 

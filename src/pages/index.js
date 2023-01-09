@@ -15,6 +15,7 @@ import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 import BlogSection from '../sections/blog-section';
 import Subscribe from '../sections/subscribe';
+import NewsSection from '../sections/news-section';
 
 export default function IndexPage() {
   return (
@@ -27,6 +28,7 @@ export default function IndexPage() {
           <ServiceSection />
           <Feature />
           <WorkFlow />
+          <NewsSection />
           <TeamSection />
           <Subscribe />
         </Layout>
