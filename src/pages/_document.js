@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { BrowserRouter } from 'react-router-dom';
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
@@ -8,13 +9,15 @@ class CustomDocument extends Document {
 
   render() {
     return (
-      <Html lang="en-US">
-        <Head />
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
+      // <BrowseRouter>
+        <Html lang="en-US">
+          <Head />
+          <body>
+            <Main />
+            <NextScript />
+          </body>
+        </Html>
+      // </BrowseRouter>
     );
   }
 }

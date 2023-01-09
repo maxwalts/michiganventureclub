@@ -5,8 +5,8 @@ import { Text, Heading, Image, Box, Link } from 'theme-ui';
 export default function TeamCard({ src, altText, title, designation, social }) {
   return (
     <Box sx={styles.card}>
-      <Image src={src} alt={altText} sx={styles.memberThumb} />
-      <Box sx={styles.infoWrapper}>
+      <Image src={src} alt={altText} sx={styles.infoWrapper} />
+      {/* <Box sx={styles.infoWrapper}>
         <Heading className="info__name" sx={styles.infoWrapper.name}>
           {title}
         </Heading>
@@ -20,7 +20,7 @@ export default function TeamCard({ src, altText, title, designation, social }) {
             {item.icon}
           </Link>
         ))}
-      </Box>
+      </Box> */}
     </Box>
   );
 }
@@ -33,7 +33,7 @@ const styles = {
     py: [0, null, 4, 5, 6],
     px: [2, null, 6, 7],
     transition: 'ease-in-out 0.4s',
-    borderRadius: '8px',
+    borderRadius: '0px',
     position: 'relative',
     '&:hover': {
       boxShadow: ['none', null, '0 4px 10px rgba(39, 83, 123, 0.12)'],
@@ -54,12 +54,12 @@ const styles = {
   },
 
   memberThumb: {
-    width: ['70px', '80px', '100px', null, null, '130px'],
-    height: ['70px', '80px', '100px', null, null, '130px'],
+    width: ['100px', '100px', '100px', null, null, '130px'],
+    height: ['100px', '100px', '100px', null, null, '130px'],
     flexShrink: 0,
     border: '2px solid',
-    borderColor: 'primary',
-    borderRadius: '50%',
+    borderColor: 'white',
+    borderRadius: '0px',
   },
   infoWrapper: {
     width: '100%',

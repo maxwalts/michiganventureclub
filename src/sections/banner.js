@@ -10,22 +10,28 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
-            MICHIGAN VENTURE CLUB
-          </Heading>
+          <Box sx={styles.banner.centered}>
+            <Heading as="h1" variant="heroPrimary" >
+
+              MICHIGAN VENTURE CLUB
+            </Heading>
+          </Box>
           <Text as="p" variant="heroSecondary">
             Are you passionate about startups and venture capital? Do you want to learn more about what it takes to be a successful entrepreneur? If so, Michigan Venture Club is the perfect place for you!<br />
             <br />
-              We are a student club at the University of Michigan that aims to connect students with professionals at Venture Capital companies. We offer industry research, deal sourcing experience as well as an incubator for entrepreneurship, where students can get started on their own startups. We also host events and workshops on topics related to venture capital and entrepreneurship.<br />
+            We are a student club at the University of Michigan that aims to connect students with professionals at Venture Capital companies. We offer industry research, deal sourcing experience as well as an incubator for entrepreneurship, where students can get started on their own startups. We also host events and workshops on topics related to venture capital and entrepreneurship.<br />
             <br />
-              So whether you're looking to learn more about the venture capital industry or you're ready to start your own company, Michigan Venture Club is the perfect place for you!
+            So whether you're looking to learn more about the venture capital industry or you're ready to start your own company, Michigan Venture Club is the perfect place for you!
 
           </Text>
         </Box>
-       <Box sx={styles.banner.imageBox}>
-         <Button variant="primary">Explore</Button>
-       </Box>
-   
+
+        <Box sx={styles.banner.centered}>
+          <a href="https://forms.gle/Bjes6bBPRocbLHxE9" >
+            <Button variant="primary">Apply before Jan 13th</Button>
+          </a>
+        </Box>
+
       </Container>
     </section>
   );
@@ -45,7 +51,7 @@ const styles = {
       height: '100%',
       width: '100%',
       zIndex: -1,
-    /*  backgroundImage: `url(${ShapeLeft})`,*/
+      /*  backgroundImage: `url(${ShapeLeft})`,*/
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom left',
       backgroundSize: '36%',
@@ -58,19 +64,23 @@ const styles = {
       height: '100%',
       width: '100%',
       zIndex: -1,
-    /*  backgroundImage: `url(${ShapeRight})`,*/
+      /*  backgroundImage: `url(${ShapeRight})`,*/
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom right',
       backgroundSize: '32%',
     },
+    centered: {
+      textAlign: 'center',
+    },
     container: {
       minHeight: 'inherit',
-      display: 'flex',
+      display: 'static',
       flexDirection: 'column',
       justifyContent: 'center',
     },
     contentBox: {
-      width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
+      // width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
+      width: ['100%'],
       mx: 'auto',
       textAlign: 'left',
       mb: ['40px', null, null, null, null, 7],

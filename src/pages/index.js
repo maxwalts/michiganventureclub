@@ -15,21 +15,29 @@ import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 import BlogSection from '../sections/blog-section';
 import Subscribe from '../sections/subscribe';
+import SlidesSection from '../sections/slides-section';
+import PhotosSection from '../sections/photos-section';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>
+
         <Layout>
+
           <SEO title="Michigan Venture Club" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
           <Feature />
           <WorkFlow />
+          <PhotosSection />
+          <SlidesSection />
           <TeamSection />
           <Subscribe />
+
         </Layout>
+
       </StickyProvider>
     </ThemeProvider>
   );

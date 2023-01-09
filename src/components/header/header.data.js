@@ -4,12 +4,16 @@ export default [
     label: 'Home',
   },
   {
-    path: 'testimonial',
+    path: 'feature',
     label: 'About us',
   },
   {
-    path: '#',
-    label: 'News',
+    path: 'photos',
+    label: 'Photos',
+  },
+  {
+    path: 'slides',
+    label: 'Slide Decks',
   },
   {
     path: 'team',
