@@ -5,15 +5,30 @@ import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
 import { FaFacebookF, FaTwitter, FaMailBulk, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
-import Member1 from 'assets/team/1.jpg';
+import Member1 from 'assets/team/1.png';
 import Member2 from 'assets/team/2.png';
-import Member3 from 'assets/team/3.jpg';
-import Member4 from 'assets/team/4.jpg';
+import Member3 from 'assets/team/3.png';
+import Member4 from 'assets/team/4.png';
 import Member5 from 'assets/team/5.png';
 import Member6 from 'assets/team/6.png';
-import Member7 from 'assets/team/7.jpg';
-import Member8 from 'assets/team/8.jpg';
-
+import Member7 from 'assets/team/7.png';
+import Member8 from 'assets/team/8.png';
+import Member9 from 'assets/team/9.png';
+import Member10 from 'assets/team/10.png';
+import Member11 from 'assets/team/11.png';
+import Member12 from 'assets/team/12.png';
+import Member13 from 'assets/team/13.png';
+import Member14 from 'assets/team/14.png';
+import Member15 from 'assets/team/15.png';
+import Member16 from 'assets/team/16.png';
+import Member17 from 'assets/team/17.png';
+import Member18 from 'assets/team/18.png';
+import Member19 from 'assets/team/19.png';
+import Member20 from 'assets/team/20.png';
+import Member21 from 'assets/team/21.png';
+import Member22 from 'assets/team/22.png';
+import Member23 from 'assets/team/23.png';
+import Member24 from 'assets/team/24.png';
 
 const data = [
   {
@@ -186,6 +201,70 @@ const data = [
       },
     ],
   },
+  {
+    id: 9,
+    imgSrc: Member9,
+  },
+  {
+    id: 10,
+    imgSrc: Member10,
+  },
+  {
+    id: 11,
+    imgSrc: Member11,
+  },
+  {
+    id: 12,
+    imgSrc: Member12,
+  },
+  {
+    id: 13,
+    imgSrc: Member13,
+  },
+  {
+    id: 14,
+    imgSrc: Member14,
+  },
+  {
+    id: 15,
+    imgSrc: Member15,
+  },
+  {
+    id: 16,
+    imgSrc: Member16,
+  },
+  {
+    id: 17,
+    imgSrc: Member17,
+  },
+  {
+    id: 18,
+    imgSrc: Member18,
+  },
+  {
+    id: 19,
+    imgSrc: Member19,
+  },
+  {
+    id: 20,
+    imgSrc: Member20,
+  },
+  {
+    id: 21,
+    imgSrc: Member21,
+  },
+  {
+    id: 22,
+    imgSrc: Member22,
+  },
+  {
+    id: 23,
+    imgSrc: Member23,
+  },
+  {
+    id: 24,
+    imgSrc: Member24,
+  },
   /*{
    id: 8,
    imgSrc: Member8,
@@ -214,6 +293,7 @@ export default function TeamSection() {
     <section id="team" sx={{ variant: 'section.team-section' }}>
       <Container>
         <SectionHeader
+          /*  slogan="our team"*/
           title="Our Team"
         />
 

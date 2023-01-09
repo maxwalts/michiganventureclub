@@ -10,7 +10,7 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary" sx={styles.banner.centered}>
+          <Heading as="h1" variant="heroPrimary" >
             MICHIGAN VENTURE CLUB
           </Heading>
           <Text as="p" variant="heroSecondary">
@@ -22,9 +22,9 @@ export default function Banner() {
 
           </Text>
         </Box>
-        <Box sx={styles.banner.imageBox}>
-          <Button variant="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfD4tjiJICl1WbeuhIuy5ATy2Y3EAR-UDyjdAkHqdwT3UuBqg/viewform">Apply before Jan 13th 2023</Button>
-        </Box>
+        {/* <Box sx={styles.banner.imageBox}>
+         <Button variant="primary">Explore</Button>
+       </Box> */}
 
       </Container>
     </section>
@@ -65,19 +65,11 @@ const styles = {
     },
     container: {
       minHeight: 'inherit',
-      display: 'flex',
+      display: 'static',
       flexDirection: 'column',
-      justifyContent: 'left',
-      alignItems: 'left',
+      justifyContent: 'center',
     },
     contentBox: {
-      // width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
-      // width: ['80%'],
-      mx: 'auto',
-      textAlign: 'left',
-      mb: ['40px', null, null, null, null, 7],
-    },
-    centered: {
       width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
       mx: 'auto',
       textAlign: 'left',
