@@ -5,12 +5,12 @@ export function NavLink({ path, label, children, ...rest }) {
   return (
     <NextLink href={path}>
       <MenuLink {...rest}>{children ? children : label}</MenuLink>
-    </NextLink>
+    </NextLink >
   );
 }
 export function Link({ path, label, children, ...rest }) {
   return (
-    <A {...rest} href={path}>
+    <A {...rest} href={path} style={{ 'text-decoration': 'none', color: 'black' }}>
       {children ? children : label}
     </A>
   );
