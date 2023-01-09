@@ -15,8 +15,8 @@ import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 import BlogSection from '../sections/blog-section';
 import Subscribe from '../sections/subscribe';
-
-// import Link from 'next/link'
+import SlidesSection from '../sections/slides-section';
+import PhotosSection from '../sections/photos-section';
 
 export default function IndexPage() {
   return (
@@ -31,6 +31,8 @@ export default function IndexPage() {
           <ServiceSection />
           <Feature />
           <WorkFlow />
+          <PhotosSection />
+          <SlidesSection />
           <TeamSection />
           <Subscribe />
 

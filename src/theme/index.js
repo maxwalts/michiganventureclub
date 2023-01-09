@@ -84,6 +84,7 @@ export default {
     main: {},
   },
   section: {
+
     keyFeature: {
       pt: [8, null, 9, null, null, 10],
       pb: ['90px', null, 9, null, null, 10, null, '165px'],
@@ -91,7 +92,13 @@ export default {
     feature: {
       pb: [8, null, 9, null, null, 10, null, '170px'],
     },
-    news: {
+    slides: {
+      pt: [8, null, 8, '70px', null, 8, null, '145px'],
+      pb: [8, null, 9, null, null, 10, null, '170px'],
+    },
+    photos: {
+      // maxWidth: '50%',
+      pt: [8, null, 8, '70px', null, 8, null, '145px'],
       pb: [8, null, 9, null, null, 10, null, '170px'],
     },
     coreFeature: {

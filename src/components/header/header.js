@@ -78,7 +78,7 @@ export default function Header({ className }) {
           </Flex>
 
           <a
-            href="https://docs.google.com/forms/d/1ipP2YvrE6K55IpsdPpjlUAYCbYMmyehpYg8rcgepukQ/edit"
+            href="https://forms.gle/Bjes6bBPRocbLHxE9"
           >
             <Button
 
