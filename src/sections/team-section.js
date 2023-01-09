@@ -29,6 +29,7 @@ import Member21 from 'assets/team/21.png';
 import Member22 from 'assets/team/22.png';
 import Member23 from 'assets/team/23.png';
 import Member24 from 'assets/team/24.png';
+import Member25 from 'assets/team/25.png';
 
 const data = [
   {
@@ -264,6 +265,10 @@ const data = [
   {
     id: 24,
     imgSrc: Member24,
+  },
+  {
+    id: 25,
+    imgSrc: Member25,
   },
   /*{
    id: 8,
