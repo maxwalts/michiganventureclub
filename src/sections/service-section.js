@@ -12,14 +12,7 @@ import {
 } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import TextFeature from 'components/text-feature';
-import ModalVideo from 'react-modal-video';
-import { IoIosPlay } from 'react-icons/io';
 import FeatureThumb from 'assets/ourmission.jpg';
-import ServiceThumb from 'assets/service-thumb.png';
-import FeatureThumb2 from 'assets/ourmission2.jpg';
-
-import Smart from 'assets/services/smart.svg';
-import Secure from 'assets/services/secure.svg';
 
 const data = {
   /*subTitle: 'Our Mission',*/
@@ -34,12 +27,6 @@ const data = {
 };
 
 export default function ServiceSection() {
-  // modal popup video handler
-  const [videoOpen, setVideoOpen] = useState(false);
-  const handleClick = (e) => {
-    e.preventDefault();
-    setVideoOpen(true);
-  };
   return (
     <section sx={{ variant: 'section.services' }}>
       <Container sx={styles.containerBox}>
@@ -60,14 +47,7 @@ export default function ServiceSection() {
           <Image src={FeatureThumb} alt="Thumbnail" />
         </Box>
 
-
       </Container>
-      <ModalVideo
-        channel="youtube"
-        isOpen={videoOpen}
-        videoId="ZNA9rmDsYVE"
-        onClose={() => setVideoOpen(false)}
-      />
     </section>
   );
 }
@@ -97,17 +77,21 @@ const styles = {
     pb: [0, null, null, null, null, 7],
   },
   thumbnail: {
-    pl: [8],
-    pt: [9],
+    pl: [0, 3],
+    pt: [0, 9],
+    objectFit: 'cover',
     // mr: ['auto', null, null, 6, 60, 85],
     order: [2, null, null, 0],
     ml: ['auto', null, null, 0],
     display: 'inline-flex',
     position: 'relative',
     '> img': {
-      position: 'relative',
+      // position: 'relative',
       zIndex: 1,
-      height: [310, 'auto'],
+      px: 'auto',
+      // fixed width and height for image
+      // width: [600, 'auto'],
+      height: ['auto'],
     },
   },
   shapeBox: {
