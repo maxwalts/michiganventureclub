@@ -6,6 +6,8 @@ import 'react-modal-video/css/modal-video.min.css';
 import 'rc-drawer/assets/index.css';
 import 'typeface-dm-sans';
 
+import '../assets/css/styles.css';
+
 export default function CustomApp({ Component, pageProps }) {
   useEffect(() => {
     initGA();

@@ -267,8 +267,8 @@ const data = [
     imgSrc: Member24,
   },
   {
-    id: 24,
-    imgSrc: Member24,
+    id: 25,
+    imgSrc: Member25,
   },
   /*{
    id: 8,

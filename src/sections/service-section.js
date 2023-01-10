@@ -55,9 +55,12 @@ export default function ServiceSection() {
             </Box>
           ))}
         </Box>
+
         <Box sx={styles.thumbnail}>
           <Image src={FeatureThumb} alt="Thumbnail" />
         </Box>
+
+
       </Container>
       <ModalVideo
         channel="youtube"
@@ -94,7 +97,9 @@ const styles = {
     pb: [0, null, null, null, null, 7],
   },
   thumbnail: {
-    mr: ['auto', null, null, 6, 60, 85],
+    pl: [8],
+    pt: [9],
+    // mr: ['auto', null, null, 6, 60, 85],
     order: [2, null, null, 0],
     ml: ['auto', null, null, 0],
     display: 'inline-flex',
