@@ -14,7 +14,7 @@ import Member6 from 'assets/team/6.png';
 import Member7 from 'assets/team/7.png';
 import Member8 from 'assets/team/8.png';
 import Member9 from 'assets/team/9.png';
-import Member10 from 'assets/team/10.png';
+import Member25 from 'assets/team/10.png';
 import Member11 from 'assets/team/11.png';
 import Member12 from 'assets/team/12.png';
 import Member13 from 'assets/team/13.png';
@@ -29,7 +29,7 @@ import Member21 from 'assets/team/21.png';
 import Member22 from 'assets/team/22.png';
 import Member23 from 'assets/team/23.png';
 import Member24 from 'assets/team/24.png';
-import Member25 from 'assets/team/25.png';
+import Member10 from 'assets/team/25.png';
 
 const data = [
   {
@@ -254,10 +254,10 @@ const data = [
     id: 21,
     imgSrc: Member21,
   },
-  {
-    id: 22,
-    imgSrc: Member22,
-  },
+  // {
+  //   id: 22,
+  //   imgSrc: Member22,
+  // },
   {
     id: 23,
     imgSrc: Member23,
