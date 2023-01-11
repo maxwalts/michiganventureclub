@@ -5,7 +5,7 @@ export default [
   },
   {
     path: 'feature',
-    label: 'About us',
+    label: 'About',
   },
   {
     path: 'photos',
@@ -17,7 +17,7 @@ export default [
   },
   {
     path: 'team',
-    label: 'Our Team',
+    label: 'Team',
   },
   {
     path: 'subscribe',

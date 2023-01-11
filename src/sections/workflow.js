@@ -4,27 +4,25 @@ import { Container, Grid, Box, Heading, Text } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 
 import PatternBG from 'assets/patternBG.png';
-import ArrowOdd from 'assets/arrowOdd.svg';
-import ArrowEven from 'assets/arrowEven.svg';
 
 const data = [
   {
     id: 1,
-    title: 'Board Team',
+    title: 'Leadership Team',
     text:
-      'Board team is mainly composed of our two presidents and 6 Vice Presidents. The Board team is responsible for the overall management and direction of Michigan Venture Club. We work to ensure that the club is running smoothly and efficiently, and that all members are able to participate and enjoy their experience. The Board team is also responsible for communicating with the club\'s members and keeping them updated on the latest news and events.',
+      "The leadership team is comprised of our two presidents and six vice presidents. They are responsible for the overall management and direction of the Michigan Venture Club, ensuring that the club runs smoothly and efficiently, and that all members are able to fully participate and benefit from their experience. The leadership team also serves as a point of contact for communication and updates on the latest news and events for the club's members.",
   },
   {
     id: 2,
-    title: 'GENERAL MANAGEMENT TEAM',
+    title: 'Research and Investment Team',
     text:
-      'Industry research and deal sourcing team is combined with around 10 groups focusing on different industries such as technology, biology, health care, consumer and web3. The industry research and deal sourcing team is responsible for conducting research on various industries and identifying potential deals that the student club can pursue. This team is essential in helping the club to stay up-to-date on industry trends and to identify new opportunities for the club to get involved in. The team works closely with the club\'s Executive Board to ensure that all research is aligned with the club\'s goals and objectives.',
+      "The research and investment team is made up of around 10 groups that focus on different industries such as technology, biology, healthcare, consumer, and web3. They are responsible for conducting research on various industries and identifying potential deals that the club can pursue. This team plays a crucial role in keeping the club up-to-date on industry trends and identifying new opportunities for the club's involvement.They work closely with the leadership team to align their research with the club's overall goals and objectives.",
   },
   {
     id: 3,
-    title: 'EXPERT ADVISORY TEAM',
+    title: 'Communications and Operations Team',
     text:
-      'The public relations and operations team is responsible for communicating with the club\'s members, the public, school department and other organizations. They work to promote Michigan Venture Club\'s activities and events, and to keep our club running smoothly. The team is made up of a VP, some managers, and several members.',
+      "The communications and operations team is responsible for managing the club's public relations and internal operations.They work to promote the Michigan Venture Club's activities and events, and ensure that the club runs smoothly. The team includes a VP, several managers, and other members and acts as liaison between club members and department, school and other organizations. "
   },
 ];
 
@@ -34,8 +32,8 @@ export default function WorkFlow() {
       <Container>
         <SectionHeader
 
-          title="Team Organization"
-          isWhite={true}
+          title="Organizational Structure"
+          isWhite={false}
         />
 
         <Grid sx={styles.grid}>
@@ -105,17 +103,7 @@ const styles = {
       '@media screen and (max-width:1220px)': {
         display: 'none',
       },
-    },
-    '&:nth-of-type(2n-1)::before': {
-      backgroundImage: `url(${ArrowOdd})`,
-    },
-    '&:nth-of-type(2n)::before': {
-      backgroundImage: `url(${ArrowEven})`,
-      top: 17,
-    },
-    '&:last-child::before': {
-      display: 'none',
-    },
+    }
   },
 
   iconBox: {
@@ -140,7 +128,7 @@ const styles = {
     mt: '-5px',
     title: {
       fontSize: [3, null, 4, null, null, 5],
-      color: 'white',
+      color: 'black',
       lineHeight: [1.4, null, null, null, null, 1.55],
       pr: [0, null, null, null, null, 2],
       mb: [2, 3],
@@ -150,7 +138,7 @@ const styles = {
       fontSize: 1,
       fontWeight: 400,
       lineHeight: [1.85, null, null, 1.9, 2],
-      color: 'white',
+      color: 'black',
       opacity: 0.75,
       pr: [0, null, null, null, null, 5],
     },

@@ -13,16 +13,16 @@ export default function Banner() {
           <Box sx={styles.banner.centered}>
             <Heading as="h1" variant="heroPrimary" >
 
-              MICHIGAN VENTURE CLUB
+              Michigan Venture Club
             </Heading>
           </Box>
           <Text as="p" variant="heroSecondary">
-            Are you passionate about startups and venture capital? Do you want to learn more about what it takes to be a successful entrepreneur? If so, Michigan Venture Club is the perfect place for you!<br />
+            The Michigan Venture Club at the University of Michigan is the premier destination for students who are passionate about startups and venture capital. As a student-led organization, we strive to connect our members with industry professionals and provide them with valuable resources and opportunities to enhance their understanding and skills in the field.<br />
             <br />
-            We are a student club at the University of Michigan that aims to connect students with professionals at Venture Capital companies. We offer industry research, deal sourcing experience as well as an incubator for entrepreneurship, where students can get started on their own startups. We also host events and workshops on topics related to venture capital and entrepreneurship.<br />
+            Our offerings include extensive industry research, hands-on deal sourcing experience, and an incubator program for aspiring entrepreneurs. Additionally, we regularly host events and workshops on various topics related to venture capital and entrepreneurship, providing a platform for knowledge-sharing and networking.<br />
             <br />
-            So whether you're looking to learn more about the venture capital industry or you're ready to start your own company, Michigan Venture Club is the perfect place for you!
-
+            Join us, and gain access to the expertise and guidance you need to thrive in the exciting world of venture capital and entrepreneurship. Whether you're seeking to expand your understanding of the industry or ready to launch your own company, Michigan Venture Club is the perfect community to support your journey.
+            <br />
           </Text>
         </Box>
 

@@ -17,7 +17,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={LogoDark} />
+          <Logo src={LogoDark} sx={{ height: '60px' }} />
 
           <Flex as="nav" sx={styles.nav} >
             {menuItems.map(({ path, label }, i) => (
@@ -117,9 +117,11 @@ const styles = {
       transition: 'all 0.15s',
       '&:hover': {
         color: 'primary',
+        fontWeight: 'bold',
       },
       '&.active': {
         color: 'primary',
+        fontWeight: 'bold',
       },
     },
     link: {
