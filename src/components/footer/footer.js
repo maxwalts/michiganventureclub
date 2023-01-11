@@ -11,7 +11,7 @@ export default function Footer() {
         {/* End of footer widgets area */}
         <Box sx={styles.footer.footerBottomArea}>
           <Link path="/">
-            <Image src={FooterLogo} alt="Logo" width={400} />
+            <Image src={FooterLogo} alt="Logo" width={200} />
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
@@ -39,7 +39,7 @@ const styles = {
       borderTopColor: 'border_color',
       display: 'flex',
       pt: [7, null, 8],
-      pb: ['40px', null, '100px'],
+      // pb: ['40px', null, '100px'],
       textAlign: 'center',
       flexDirection: 'column',
     },

@@ -8,7 +8,7 @@ import { FaFacebookF, FaTwitter, FaMailBulk, FaLinkedinIn, FaInstagram } from 'r
 
 export default function SlidesSection() {
   return (
-    <section id='slides' sx={{ variant: 'section.slides' }}>
+    <section id='slides' sx={{ variant: 'section.light' }}>
       <Container>
 
         <SectionHeader

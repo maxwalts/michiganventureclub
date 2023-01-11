@@ -4,10 +4,8 @@ import {
   jsx,
   Container,
   Box,
-  Grid,
   Text,
   Heading,
-  Button,
   Image,
 } from 'theme-ui';
 import { keyframes } from '@emotion/core';
@@ -21,14 +19,14 @@ const data = {
     {
       id: 1,
       text:
-        'Michigan Venture Club is a student-running venture capital club that focuses on early-stage and fast-growing investment opportunities. We are founded in 2022 and our aim is to help early stage companies get some funding and grow up. Michigan Venture Club provides students with the help of business practice, fund internship, experience sharing, financing support and other aspects of Venture capital growth. Our vision is to make the club a shortcut for students to grow from campus into the venture capital industry, a cradle for alumni to create opportunities and connections in the venture capital industry.',
+        'The Michigan Venture Club is a student-led organization that is committed to identifying and investing in early-stage and rapidly-growing companies. Established in 2022, our mission is to empower entrepreneurs by providing them with the resources, support, and mentorship they need to take their ventures to the next level. We offer students hands-on experience in business practice, funding internships, networking opportunities, and financing support, all aimed at fostering their growth and success in the venture capital industry. Our vision is to be a conduit for students to transition seamlessly from campus to the venture capital industry, and a hub for alumni to create connections and opportunities within the industry.',
     }
   ],
 };
 
 export default function ServiceSection() {
   return (
-    <section sx={{ variant: 'section.services' }}>
+    <section sx={{ variant: 'section.light' }}>
       <Container sx={styles.containerBox}>
 
         <Box sx={styles.contentBox}>

@@ -4,7 +4,8 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { DrawerContext } from '../../contexts/drawer/drawer.context';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
-import Link from 'next/link';
+// import Link from 'next/link';
+import { Link } from 'react-scroll';
 import {
   FaFacebookF,
   FaTwitter,
@@ -42,6 +43,7 @@ const MobileDrawer = () => {
     });
   }, [dispatch]);
 
+
   return (
     <Drawer
       width="320px"
@@ -62,19 +64,20 @@ const MobileDrawer = () => {
             {menuItems.map(({ path, label }, i) => (
               <Link
                 activeClass="active"
-                href={`/${encodeURIComponent(path)}`}
+                to={path}
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 key={i}
+
               >
                 {label}
               </Link>
             ))}
           </Box>
 
-          <Box sx={styles.menuFooter}>
+          {/* <Box sx={styles.menuFooter}>
             <Box sx={styles.social}>
               {social.map(({ path, icon }, i) => (
                 <Box as="span" key={i} sx={styles.social.icon}>
@@ -82,7 +85,7 @@ const MobileDrawer = () => {
                 </Box>
               ))}
             </Box>
-          </Box>
+          </Box> */}
         </Box>
       </Scrollbars>
     </Drawer>
