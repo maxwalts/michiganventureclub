@@ -30,10 +30,10 @@ const data = [
 
 export default function WorkFlow() {
   return (
-    <section id ="team_constructure" sx={styles.workflow}>
+    <section id="team_constructure" sx={styles.workflow}>
       <Container>
         <SectionHeader
-          
+
           title="Team Organization"
           isWhite={true}
         />

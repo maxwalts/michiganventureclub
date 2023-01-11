@@ -45,10 +45,10 @@ const data = [
 
 export default function KeyFeature() {
   return (
-    <section sx={{ variant: 'section.keyFeature' }} id="feature">
+    <section sx={{ variant: 'section.dark' }} id="feature">
       <Container>
         <SectionHeader
-         /* slogan="Whats the function"*/
+          /* slogan="Whats the function"*/
           title="Our Values"
         />
 

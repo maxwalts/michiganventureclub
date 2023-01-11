@@ -84,38 +84,23 @@ export default {
     main: {},
   },
   section: {
-
-    keyFeature: {
+    light: {
       pt: [8, null, 9, null, null, 10],
+      mt: [8, null, 9, null, null, 10],
       pb: ['90px', null, 9, null, null, 10, null, '165px'],
     },
-    feature: {
-      pb: [8, null, 9, null, null, 10, null, '170px'],
-    },
-    slides: {
-      pt: [8, null, 8, '70px', null, 8, null, '145px'],
-      pb: [8, null, 9, null, null, 10, null, '170px'],
+    dark: {
+      pt: [8, null, 9, null, null, 10],
+      mt: [8, null, 9, null, null, 10],
+      pb: ['90px', null, 9, null, null, 10, null, '165px'],
+      backgroundColor: 'background_secondary',
     },
     photos: {
       // maxWidth: '50%',
-      pt: [8, null, 8, '70px', null, 8, null, '145px'],
-      pb: [8, null, 9, null, null, 10, null, '170px'],
-    },
-    coreFeature: {
-      pb: [8, null, 9, null, null, 10, null, '170px'],
-      overflow: 'hidden',
-    },
-    testimonial: {
-      pt: [8, null, 8, '70px', null, 8, null, '145px'],
-      pb: ['90px', null, 9, null, null, 10, null, '190px'],
-      overflow: 'hidden',
-    },
-    services: {
-      pb: ['90px', null, 9, null, null, 10, null, '150px'],
-    },
-    pricing: {
-      pt: [8, null, 9, null, null, 10, null, '180px'],
-      pb: ['90px', null, 9, null, null, 10, null, '180px'],
+      pt: [8, null, 9, null, null, 10],
+      pb: ['90px', null, 9, null, null, 10, null, '165px'],
+      mb: [-8, null, -9, null, null, -10],
+      backgroundColor: 'background_secondary',
     },
   },
   sectionHeader: {

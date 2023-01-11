@@ -28,7 +28,7 @@ const data = {
 
 export default function ServiceSection() {
   return (
-    <section sx={{ variant: 'section.services' }}>
+    <section sx={{ variant: 'section.light' }}>
       <Container sx={styles.containerBox}>
 
         <Box sx={styles.contentBox}>
