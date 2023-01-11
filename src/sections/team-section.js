@@ -295,7 +295,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section id="team" sx={{ variant: 'section.team-section' }}>
+    <section id="team" sx={{ variant: 'section.dark' }}>
       <Container>
         <SectionHeader
           /*  slogan="our team"*/

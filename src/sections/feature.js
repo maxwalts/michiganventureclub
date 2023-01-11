@@ -14,7 +14,8 @@ const data = [
     imgSrc: Performance,
     altText: 'Investment Companies',
     title: 'Investment Companies',
-    text:'We invite established corporate investors, representatives from investment companies, and entrepreneurs to share their investment experience and insights. We provide internship opportunities for our members through collaboration with these companies. Our existing resources include a family office fund with a scale of more than one billion RMB.'  },
+    text: 'We invite established corporate investors, representatives from investment companies, and entrepreneurs to share their investment experience and insights. We provide internship opportunities for our members through collaboration with these companies. Our existing resources include a family office fund with a scale of more than one billion RMB.'
+  },
   {
     id: 2,
     imgSrc: Partnership,
@@ -35,7 +36,7 @@ const data = [
 
 export default function Feature() {
   return (
-    <section sx={{ variant: 'section.feature' }}>
+    <section sx={{ variant: 'section.dark' }}>
       <Container>
         <SectionHeader
           /*slogan="Quality features"*/
