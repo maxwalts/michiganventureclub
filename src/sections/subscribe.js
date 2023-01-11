@@ -31,7 +31,7 @@ export default function Subscribe() {
 
 const styles = {
   contentBox: {
-    backgroundColor: 'blue',
+    backgroundColor: 'primary',
     textAlign: 'center',
     borderRadius: 10,
     py: ['60px', null, 8],

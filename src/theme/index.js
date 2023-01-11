@@ -8,8 +8,8 @@ export default {
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E5ECF4', // border color
-    yellow: '#FFA740', // border color
-    primary: '#EA3A60', // primary button and link color
+    yellow: '#FFCB05', // border color
+    primary: '#00274C', // primary button and link color
     secondary: '#2563FF', // secondary color - can be used for hover states
     muted: '#E4E4E4', // muted color
     accent: '#609', // a contrast color for emphasizing UI
@@ -255,7 +255,7 @@ export default {
       color: 'white',
       bg: 'primary',
       '&:hover': {
-        boxShadow: 'rgba(233, 76, 84, 0.57) 0px 9px 20px -5px',
+        boxShadow: 'rgba(0, 39, 76, 0.57) 0px 9px 20px -5px',
       },
     },
     whiteButton: {

@@ -19,8 +19,8 @@ const data = [
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Alumni Resources',
-    title: 'Alumni Resources',
+    altText: 'Alumni Connections',
+    title: 'Alumni Connections',
     text:
       'In Michigan Venture Club, our members can use our built Alumni Resources to connect with other alumni, learn about job opportunities, and get advice on starting their own businesses.',
   },
@@ -28,9 +28,9 @@ const data = [
     id: 3,
     imgSrc: Subscription,
     altText: 'Cross-Campus Collaboration',
-    title: 'Cross-Campus Collaboration',
+    title: 'Inter-University Partnerships and Collaboration',
     text:
-      'We have partnered with many venture capital clubs at Yale, Columbia, Penn, Cornell, New York University, and other universities across the United States.',
+      "We have established partnerships and collaborations with venture capital clubs at prestigious universities such as Yale, Columbia, Penn, Cornell, New York University, and others across the United States, expanding our members' access to resources, networking and opportunities.",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function Feature() {
       <Container>
         <SectionHeader
           /*slogan="Quality features"*/
-          title="Our Resources"
+          title="Support and Resources"
         />
 
         <Grid sx={styles.grid}>
