@@ -37,15 +37,15 @@ export default function Header({ className }) {
           </Flex>
 
           <a
-            href="https://forms.gle/Bjes6bBPRocbLHxE9"
+            href="mailto:mvcumich@gmail.com"
           >
             <Button
 
               className="donate__btn"
               variant="secondary"
-              aria-label="Apply"
+              aria-label="Contact Us"
             >
-              Apply
+              Contact Us
             </Button>
           </a>
 
