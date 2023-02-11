@@ -17,6 +17,7 @@ import BlogSection from '../sections/blog-section';
 import Subscribe from '../sections/subscribe';
 import SlidesSection from '../sections/slides-section';
 import PhotosSection from '../sections/photos-section';
+import TeamPhotosSection from '../sections/team-photos';
 
 export default function IndexPage() {
   return (
@@ -29,6 +30,7 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <ServiceSection />
+          <TeamPhotosSection />
           <Feature />
           <WorkFlow />
           <PhotosSection />
