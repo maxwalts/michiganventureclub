@@ -6,7 +6,7 @@ import TeamCard from 'components/team-card';
 
 const data = [];
 // iterate over directory of team images and push them into data array
-for (let i = 1; i <= 50; i++) {
+for (let i = 1; i <= 51; i++) {
     const member = {
         id: i,
         imgSrc: require(`../assets/team/${i}.png`)
