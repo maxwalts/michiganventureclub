@@ -27,8 +27,8 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.centered}>
-          <a href="mailto:mvcumich@gmail.com" >
-            <Button variant="primary">Get in Touch</Button>
+          <a href="https://forms.gle/Bjes6bBPRocbLHxE9" >
+            <Button variant="primary">Apply before Jan 13th</Button>
           </a>
         </Box>
 
